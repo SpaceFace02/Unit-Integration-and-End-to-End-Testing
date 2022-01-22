@@ -30,7 +30,7 @@ test("end to end test", async () => {
   });
 
   // Once you go to the page, you can only refer to the page's dom, hence call page.on() before so as to capture the dialog event.
-  await page.goto("http://127.0.0.1:5500/ostl_form.html");
+  await page.goto("https://explore-testing.netlify.app/");
 
   await page.click("#name");
   await page.type("#name", "Chirag");

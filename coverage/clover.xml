@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1642857486554" clover="3.2.0">
-  <project timestamp="1642857486555" name="All files">
+<coverage generated="1642858273163" clover="3.2.0">
+  <project timestamp="1642858273163" name="All files">
     <metrics statements="15" coveredstatements="13" conditionals="8" coveredconditionals="6" methods="4" coveredmethods="4" elements="27" coveredelements="23" complexity="0" loc="15" ncloc="15" packages="1" files="3" classes="3"/>
     <file name="add.js" path="D:\Web-App Development\Intro to Testing\functions\add.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
