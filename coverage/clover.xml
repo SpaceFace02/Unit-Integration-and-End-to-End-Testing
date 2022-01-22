@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1642856776215" clover="3.2.0">
-  <project timestamp="1642856776215" name="All files">
+<coverage generated="1642857486554" clover="3.2.0">
+  <project timestamp="1642857486555" name="All files">
     <metrics statements="15" coveredstatements="13" conditionals="8" coveredconditionals="6" methods="4" coveredmethods="4" elements="27" coveredelements="23" complexity="0" loc="15" ncloc="15" packages="1" files="3" classes="3"/>
-    <file name="add.js" path="D:\Web-App Development\Intro to Testing\add.js">
+    <file name="add.js" path="D:\Web-App Development\Intro to Testing\functions\add.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="2" count="2" type="stmt"/>
       <line num="5" count="1" type="stmt"/>
     </file>
-    <file name="clone.js" path="D:\Web-App Development\Intro to Testing\clone.js">
+    <file name="clone.js" path="D:\Web-App Development\Intro to Testing\functions\clone.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="2" type="stmt"/>
     </file>
-    <file name="validate.js" path="D:\Web-App Development\Intro to Testing\validate.js">
+    <file name="validate.js" path="D:\Web-App Development\Intro to Testing\functions\validate.js">
       <metrics statements="11" coveredstatements="9" conditionals="8" coveredconditionals="6" methods="2" coveredmethods="2"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="2" type="cond" truecount="2" falsecount="0"/>

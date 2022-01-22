@@ -1,5 +1,5 @@
 TN:
-SF:add.js
+SF:functions\add.js
 FN:1,add
 FNF:1
 FNH:1
@@ -12,7 +12,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:clone.js
+SF:functions\clone.js
 FN:1,clone
 FNF:1
 FNH:1
@@ -25,7 +25,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:validate.js
+SF:functions\validate.js
 FN:1,checkAndGenerate
 FN:8,validateInput
 FNF:2

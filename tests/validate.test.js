@@ -1,5 +1,5 @@
 const { expect } = require("@jest/globals");
-const checkAndGenerate = require("./validate");
+const checkAndGenerate = require("../functions/validate");
 const puppeteer = require("puppeteer");
 
 // Integration Test - functions are tested together
