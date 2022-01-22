@@ -1,0 +1,16 @@
+{
+  "name": "intro-to-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "add.js",
+  "scripts": {
+    "test": "jest --coverage --detectOpenHandles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "puppeteer": "^13.1.1"
+  }
+}

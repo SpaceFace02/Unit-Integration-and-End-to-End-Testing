@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TICKET BOOKING FORM</title>
+    <style>
+      h1 {
+        color: red;
+      }
+      body {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>TICKET BOOKING FORM</h1>
+    <form>
+      <label for="Name">Name:</label>
+      <br />
+      <input type="text" name="Name" id="name" />
+      <br />
+      <label for="age">Age:</label>
+      <br />
+      <input type="text" name="age" id="age" />
+      <br />
+      <br />
+      <label for="sex">Sex:</label>
+      <br />
+      <input type="radio" id="male" name="sex" value="Male" />
+      <label for="male">Male</label>
+      <br />
+      <input type="radio" id="female" name="sex" value="Female" />
+      <label for="female">Female</label>
+      <br />
+      <input type="radio" id="other" name="sex" value="Other" />
+      <label for="other">Other</label>
+      <br />
+      <br />
+      <label for="source">Enter the Source City</label>
+      <br />
+      <input type="text" name="source" id="source" />
+      <br />
+      <label for="destination">Enter the destination City</label>
+      <br />
+      <input type="text" name="destination" id="destination" />
+      <br />
+      <br />
+      <label for="no">Select the number of tickets to be booked</label>
+      <br />
+      <select name="no" id="no">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+      </select>
+      <!-- input button -->
+      <br />
+      <input
+        type="button"
+        onclick="bookTickets();"
+        value="Submit"
+        id="submit_btn"
+      />
+    </form>
+  </body>
+
+  <script>
+    function bookTickets() {
+      var name = document.getElementById("name").value;
+      var age = document.getElementById("age").value;
+      var name_tag;
+      if (age < 25) {
+        alert("Invalid age input");
+        return;
+      }
+
+      //  If the selected gender is male, set name_tag as Mr, else as Mrs
+      if (document.getElementById("male").checked == true) {
+        name_tag = "Mr.";
+      } else if (document.getElementById("female").checked == true) {
+        name_tag = "Mrs.";
+      }
+
+      var source_location = document.getElementById("source");
+      var destination_location = document.getElementById("destination");
+
+      // Get the number of tickets to be booked
+      var no_of_tickets = document.getElementById("no");
+      var no_of_tickets_selected =
+        no_of_tickets.options[no_of_tickets.selectedIndex].value;
+
+      alert(
+        `${name_tag} ${name}, has booked ${no_of_tickets_selected} tickets from ${source_location.value} to ${destination_location.value}`
+      ).className = "end_alert";
+    }
+  </script>
+</html>
