@@ -7,5 +7,6 @@ Exploring the different types of testing, including unit tests, integration test
 
 ### To run
 - Clone repo
+- cd into the directory
 - Run ```npm i```
 - Run ```npm test```
