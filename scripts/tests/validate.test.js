@@ -15,8 +15,8 @@ jest.setTimeout(30000);
 
 test("end to end test", async () => {
   const browser = await puppeteer.launch({
-    headless: false,
-    slowMo: 80,
+    // headless: false,
+    slowMo: 30,
     args: ["--window-size=1920,1080"],
   });
 
