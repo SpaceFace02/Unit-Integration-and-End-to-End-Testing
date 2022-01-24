@@ -4,7 +4,7 @@
   "description": "",
   "main": "add.js",
   "scripts": {
-    "test": "jest --coverage --detectOpenHandles"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,11 @@
   "devDependencies": {
     "jest": "^27.4.7",
     "puppeteer": "^13.1.1"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "dependencies": {
+    "axios": "^0.25.0"
   }
 }

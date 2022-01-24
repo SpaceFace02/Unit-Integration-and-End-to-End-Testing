@@ -16,11 +16,13 @@ jest.setTimeout(30000);
 test("end to end test", async () => {
   const browser = await puppeteer.launch({
     headless: false,
-    slowMo: 20,
+    slowMo: 80,
     args: ["--window-size=1920,1080"],
   });
 
   const page = await browser.newPage();
+
+  // page.on("console", msg => console.log("PAGE LOG:", msg.text())); This is how console logs are detected.
 
   page.on("dialog", async (dialog) => {
     const msg = dialog.message();
