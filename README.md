@@ -22,4 +22,4 @@ Exploring the different types of testing, including unit tests, integration test
 - Babel - To transpile the javascript files
 - Axios - To make http requests
 
-#### I get a small warning in fetch.test.js, which in turn arises from util.js, a small memory leak it seems, which doesn't allow the test to exit gracefully. If anyone can figure out how to fix this, please let me know. Thanks!
+#### I get a small warning in fetch.test.js, which in turn arises from util.js, a small memory leak it seems, which doesn't allow the test to exit gracefully, and is compelled to forcefully exit. If anyone can figure out how to fix this, please let me know. Thanks!
